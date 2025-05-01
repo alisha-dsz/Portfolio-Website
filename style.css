@@ -1,0 +1,123 @@
+body{
+    background-color:rgb(196, 177, 172);
+    margin-top:0px;
+}
+
+.intro{
+    display:flex;
+    gap:10px;
+}
+
+.picture img{
+    height:250px;
+    width:180px;
+    border-radius:50%;
+    margin:50px;
+    margin-top:30px;
+    border-style:solid;
+    border-width:5px;
+    border-color:rgb(59, 48, 45);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+.pic-text h1{
+    color:rgb(92, 2, 2);
+    font-family:Garamond;
+    font-size: 50px;
+    line-height:0.9;
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+.underline{
+    text-decoration:underline;
+    text-decoration-color:rgb(126, 101, 101);
+}
+.about p{
+    font-family:'Lucida Sans Regular';
+    line-height:1.5;
+    margin-right:50px;
+   
+}
+.highlight{
+    background-color:rgb(171, 132, 132) ;
+    border-radius:2px;
+}
+.experience{
+    color:rgb(59, 48, 45);
+    text-align:center;
+    font-family:tahoma;
+    margin-top: -90px;
+}
+.exp-deets{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    margin:30px;
+}
+.web{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 20px;
+    border-radius: 15px;
+    height:230px;
+    width:350px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+.team{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 15px;
+    height:230px;
+    width:350px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+.exec{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 20px;
+    border-radius: 15px;
+    height:230px;
+    width:350px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+.contact{
+    color:rgb(59, 48, 45);
+    text-align:center;
+    font-family:tahoma;
+}
+.contact-links{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+}
+.title-font{
+    font-family: 'Trebuchet MS';
+    color:rgb(88, 71, 67);
+    text-decoration:underline;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.button-message{
+    color:rgb(255, 255, 255);
+    background-color: rgb(92, 2, 2);
+    font-weight: bold;
+    height:40px;
+    width:300px;
+    border:none;
+    border-radius:25px;
+    box-shadow:0px 15px 15px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+    transition:background-color 0.15s;
+}
+.button-message:hover{
+    background-color:rgb(88, 71, 67);
+}
+.button-message:active{
+    background-color:rgb(58, 46, 44);
+}
