@@ -121,3 +121,6 @@ body{
 .button-message:active{
     background-color:rgb(58, 46, 44);
 }
+.github-img{
+    margin-top: -5px;
+}
